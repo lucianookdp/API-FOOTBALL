@@ -1,0 +1,37 @@
+/* src/styles/DarkTheme.css */
+body.dark {
+    background-color: #2c2c2c;
+    color: #e0e0e0;
+  }
+  
+  .App.dark {
+    background-color: #2c2c2c;
+    color: #e0e0e0;
+  }
+  
+  .App.dark .AppBar {
+    background-color: #1e3a8a !important;
+  }
+  
+  .App.dark .Toolbar .MuiTypography-root,
+  .App.dark .Toolbar .MuiButtonBase-root {
+    color: #e0e0e0;
+  }
+  
+  .App.dark .Toolbar .MuiButtonBase-root:hover {
+    background-color: #444;
+  }
+  
+  .MainContainer.dark {
+    background-color: #2c2c2c;
+  }
+  
+  .Box.dark {
+    background-color: #3c3c3c;
+    color: #e0e0e0;
+  }
+  
+  a.dark {
+    color: #1e3a8a;
+  }
+  

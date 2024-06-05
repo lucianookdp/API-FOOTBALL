@@ -1,0 +1,138 @@
+/* LiveScores.css */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+body.dark {
+  background-color: #2c2c2c;
+  color: #e0e0e0;
+}
+
+.App {
+  text-align: center;
+}
+
+.App.dark {
+  background-color: #2c2c2c;
+  color: #e0e0e0;
+}
+
+.live-scores-container {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+body.dark .live-scores-container {
+  background-color: #3c3c3c;
+  color: #e0e0e0;
+}
+
+.live-scores-container h2 {
+  text-align: center;
+  color: #1976d2;
+  margin-bottom: 20px;
+}
+
+body.dark .live-scores-container h2 {
+  color: #2c64ff;
+}
+
+.live-scores-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.match-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  background-color: #fff;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+body.dark .match-item {
+  background-color: #3c3c3c;
+  border: 1px solid #555;
+}
+
+.match-item:hover {
+  transform: scale(1.02);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.team-info {
+  display: flex;
+  align-items: center;
+}
+
+.team-info.home {
+  justify-content: flex-start;
+}
+
+.team-info.away {
+  justify-content: flex-end;
+  text-align: right;
+}
+
+.team-logo {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+  border-radius: 0;
+  border: none;
+}
+
+.team-name {
+  font-size: 1.1em;
+  color: #333;
+}
+
+body.dark .team-name {
+  color: #e0e0e0;
+}
+
+.score-container {
+  text-align: center;
+}
+
+.score {
+  font-size: 1.3em;
+  color: #1976d2;
+  font-weight: bold;
+  margin: 0 15px;
+}
+
+body.dark .score {
+  color: #2c64ff;
+}
+
+.details-link {
+  text-decoration: none;
+  color: #2c64ff;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.details-link:hover {
+  color: #145a9e;
+}
+
+body.dark .details-link {
+  color: #2c64ff;
+}
+
+body.dark .details-link:hover {
+  color: #145a9e;
+}

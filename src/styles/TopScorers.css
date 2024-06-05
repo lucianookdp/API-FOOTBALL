@@ -1,0 +1,101 @@
+/* TopScorers.css */
+.top-scorers-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+body.dark .top-scorers-container {
+  background-color: #3c3c3c;
+  color: #e0e0e0;
+}
+
+.top-scorers-container h2 {
+  text-align: center;
+  color: #1976d2;
+  margin-bottom: 20px;
+}
+
+body.dark .top-scorers-container h2 {
+  color: #2c64ff;
+}
+
+.league-select {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+body.dark .league-select {
+  background-color: #4c4c4c;
+  color: #e0e0e0;
+  border: 1px solid #555;
+}
+
+.top-scorers-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.top-scorer-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  background-color: #fff;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+body.dark .top-scorer-item {
+  background-color: #3c3c3c;
+  border: 1px solid #555;
+}
+
+.top-scorer-item:hover {
+  transform: scale(1.02);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.player-photo {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.player-info {
+  flex: 1;
+}
+
+.player-name {
+  display: block;
+  font-size: 1.2em;
+  color: #333;
+}
+
+body.dark .player-name {
+  color: #e0e0e0;
+}
+
+.player-goals {
+  color: #555;
+}
+
+body.dark .player-goals {
+  color: #ccc;
+}
+
+.team-logo {
+  width: 30px;
+  height: 30px;
+}

@@ -1,0 +1,64 @@
+/* TeamDetails.css */
+.team-details {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+body.dark .team-details {
+  background-color: #3c3c3c;
+  color: #e0e0e0;
+}
+
+.team-details h2 {
+  color: #1976d2;
+  margin-bottom: 10px;
+}
+
+body.dark .team-details h2 {
+  color: #2c64ff;
+}
+
+.team-logo {
+  width: 100px;
+  height: 100px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.team-details p {
+  margin: 5px 0;
+}
+
+.team-details h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: #1976d2;
+}
+
+body.dark .team-details h3 {
+  color: #2c64ff;
+}
+
+.team-details ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.team-details li {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+body.dark .team-details li {
+  border-bottom: 1px solid #555;
+}
+
+.team-details li:last-child {
+  border-bottom: none;
+}

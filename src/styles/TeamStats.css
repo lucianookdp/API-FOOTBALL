@@ -1,0 +1,50 @@
+/* TeamStats.css */
+.team-stats-container {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+body.dark .team-stats-container {
+  background-color: #3c3c3c;
+  color: #e0e0e0;
+}
+
+.team-stats-container h2 {
+  color: #1976d2;
+  margin-bottom: 20px;
+}
+
+body.dark .team-stats-container h2 {
+  color: #2c64ff;
+}
+
+.team-stats {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+body.dark .team-stats {
+  background-color: #3c3c3c;
+  color: #e0e0e0;
+}
+
+.team-stats p {
+  margin: 10px 0;
+  font-size: 1.1em;
+}
+
+.team-stats p strong {
+  color: #1976d2;
+}
+
+body.dark .team-stats p strong {
+  color: #2c64ff;
+}

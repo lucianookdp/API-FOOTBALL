@@ -1,0 +1,104 @@
+/* Fixtures.css */
+.fixtures-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: 'Arial', sans-serif;
+}
+
+body.dark .fixtures-container {
+  background-color: #3c3c3c;
+  color: #e0e0e0;
+}
+
+.fixtures-container h2 {
+  text-align: center;
+  color: #1976d2;
+  margin-bottom: 20px;
+  font-size: 2em;
+}
+
+body.dark .fixtures-container h2 {
+  color: #2c64ff;
+}
+
+.fixtures-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.fixture-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+body.dark .fixture-item {
+  background-color: #3c3c3c;
+  border: 1px solid #555;
+}
+
+.fixture-item:hover {
+  transform: scale(1.02);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.team-info {
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+
+.team-logo {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+  border-radius: 50%;
+  border: 2px solid #1976d2;
+}
+
+body.dark .team-logo {
+  border: 2px solid #2c64ff;
+}
+
+.team-name {
+  font-size: 1em;
+  color: #333;
+}
+
+body.dark .team-name {
+  color: #e0e0e0;
+}
+
+.versus {
+  flex: 0.5;
+  text-align: center;
+  font-size: 1.2em;
+  color: #1976d2;
+  font-weight: bold;
+}
+
+body.dark .versus {
+  color: #2c64ff;
+}
+
+.fixture-date {
+  flex: 1;
+  text-align: right;
+  color: #555;
+  font-size: 1em;
+}
+
+body.dark .fixture-date {
+  color: #ccc;
+}

@@ -1,0 +1,20 @@
+/* PlayerDetails.css */
+.player-details {
+  text-align: left;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+body.dark .player-details {
+  background-color: #3c3c3c;
+  color: #e0e0e0;
+}
+
+.player-photo {
+  width: 100px;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}

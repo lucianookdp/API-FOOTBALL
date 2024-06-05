@@ -1,0 +1,93 @@
+/* App.css */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+body.dark {
+  background-color: #2c2c2c;
+  color: #e0e0e0;
+}
+
+.App {
+  text-align: center;
+}
+
+.App.dark {
+  background-color: #2c2c2c;
+  color: #e0e0e0;
+}
+
+/* Estilo do Cabeçalho */
+.AppBar {
+  background-color: #1e3a8a !important;
+  padding: 10px 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.Toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Toolbar .MuiTypography-root {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.Toolbar .MuiButtonBase-root {
+  color: #fff;
+  margin-left: 15px;
+  text-transform: none;
+  font-size: 1em;
+}
+
+.Toolbar .MuiButtonBase-root:hover {
+  background-color: #145a9e;
+  border-radius: 5px;
+}
+
+/* Estilo do Container Principal */
+.MainContainer {
+  padding: 20px;
+}
+
+.MainContainer.dark {
+  background-color: #2c2c2c;
+  color: #e0e0e0;
+}
+
+/* Estilo para Links */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a.dark {
+  color: #2c64ff;
+}
+
+/* Estilo para Seletores */
+select {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  margin-bottom: 20px;
+}
+
+select:focus {
+  outline: none;
+  border-color: #1976d2;
+}
+
+body.dark select {
+  background-color: #4c4c4c;
+  color: #e0e0e0;
+  border: 1px solid #555;
+}
